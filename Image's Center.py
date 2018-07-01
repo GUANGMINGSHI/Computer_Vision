@@ -1,4 +1,5 @@
-# calculate the image's center
+""" based on contours to calculate image's center"""
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,3 +24,6 @@ cv2.circle(img, (x, y), 4, 100, 2, 4)
 plt.imshow(img)
 plt.colorbar()
 plt.show()
+
+
+""" based on image calculate center """
