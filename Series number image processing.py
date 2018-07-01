@@ -16,11 +16,9 @@ import cv2
 import numpy as np
 #use glob module
 import glob
-files = glob.glob("image/*")
-    
 """
 拡張子を指定: file = glob.glob("image/*.png")
 """
-
+files = glob.glob("image/*")
 for f in files:
     img = cv2.imread(f, cv2.IMREAD_GRAYSCALE)
