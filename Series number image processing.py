@@ -8,7 +8,7 @@ import numpy as np
 for i in range(10):
     #1桁の場合(0, 1, 2)
     img = cv2.imread(str(i)+ "/Users/jimmy/Desktop/Python/.png", cv2.IMREAD_GRAYSCALE)
-    #ゼロ埋め、3桁の場合（000、001）
+    #ゼロ埋め、3桁の場合（000001）
     img = cv2.imread({0:03d}.png".format(i), cv2.IMREAD_GRAYSCALE")
 
 
