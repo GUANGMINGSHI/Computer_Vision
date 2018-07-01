@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 
 # read image by channel 3
 img = cv2.imread("/Users/jimmy/Desktop/Python/sample.png", cv2.IMREAD_COLOR)
+# BGR to RGB
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 #resize the image
