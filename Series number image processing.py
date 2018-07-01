@@ -10,6 +10,8 @@ for i in range(10):
     img = cv2.imread(str(i)+ "/Users/jimmy/Desktop/Python/.png", cv2.IMREAD_GRAYSCALE)
     #ゼロ埋め、3桁の場合（000001）
     img = cv2.imread({0:03d}.png".format(i), cv2.IMREAD_GRAYSCALE")
+    #like "mri1.png, mri2.png"
+    img = cv2.imread("/Users/jimmy/Desktop/Python/mri" + str(i) + ".png", 0)
 
 
 #連番ではないが、特定のディレクトリ内のファイルをすべて処理
