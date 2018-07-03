@@ -1,4 +1,5 @@
 
+# 1.Start with Image or Video
 """動画を再生する"""
 import cv2
 import numpy as np
@@ -16,3 +17,10 @@ while(cap.isOpened()):
         break
 cap.release()
 cv2.destroyAllWindows()
+
+# 2.Drawing Function in Opencv
+
+# 3.Mouse as a Paint-Brush
+
+# 4.Track as the Color Palette
+
