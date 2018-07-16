@@ -7,3 +7,5 @@ digital grayscale image: rectangular matrix of number between 0 and 255.
 green more than red and blue. demosaicing: interpolating values from neighboring pixels.
 
 Iamge is a n-dimensional NumPy array
+
+
