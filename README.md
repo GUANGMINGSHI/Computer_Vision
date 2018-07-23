@@ -1,2 +1,1 @@
-# Opencv
-Opencv, Python, Image processing, Image recognition
+introduction to computer vision-Udacity
