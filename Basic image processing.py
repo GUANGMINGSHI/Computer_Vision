@@ -35,7 +35,7 @@ cap = cv2.VideoCapture("/Users/jimmy/Desktop/Python/Silicon.Valley.S05E04.mp4")
 
 #動画が終わるまで繰り返し
 while(cap.isOpened()):
-    #フレームの取得
+    # capture frame by frame
     ret, frame = cap.read()
     #表示
     cv2.imshow("image", frame)
