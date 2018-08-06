@@ -7,6 +7,10 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+# create image
+img = np.zeros([255,255,3], dtype=np.uint8)
+cv2.imwrite("/Users/shiguang/Desktop/cv/testimage3.jpg", img)
+
 # read image by channel 3
 img = cv2.imread("/Users/jimmy/Desktop/Python/sample.png", cv2.IMREAD_COLOR)
 # BGR to RGB
