@@ -44,16 +44,3 @@ while(cap.isOpened()):
         break
 cap.release()
 cv2.destroyAllWindows()
-
-
-"""新しい画像を生成する"""
-import numpy as np
-from PIL import Image
-
-# "uint": an array types, Unsigned integer (0 to 255)
-array = np.zeros([255, 255, 3], dtype=np.uint8)
-# Function "fromarray" 画像のピクセル値を変換できる.
-img = Image.fromarray(array)
-
-img.save('/Users/jimmy/Desktop/Python/testrgb.png')
-
