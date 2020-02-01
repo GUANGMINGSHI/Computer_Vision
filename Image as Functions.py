@@ -38,6 +38,3 @@ print("standard deviation is:" + str(np.std(img1_green)))
 
 calculated = (img1_green - np.mean(img1_green)) / np.std(img1_green) * 10 + np.mean(img1_green)
 cv2.imwrite("/Users/jimmy/Desktop/cv/Homework/ps0/output/ps0-4-b-1.jpg", calculated)
-
-
-テストのため追加
