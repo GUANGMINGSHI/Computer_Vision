@@ -29,6 +29,7 @@ center = img1_red[int(y_offset):int(y_offset+100), int(x_offset):int(x_offset+10
 img_with_center[int(y_offset):int(y_offset+100), int(x_offset):int(x_offset+100)] = center
 cv2.imwrite("/Users/jimmy/Desktop/cv/Homework/ps0/output/ps0-3-a-1.jpg", img_with_center)
 
+
 # 4.Arithmetic and Geometric operations
 print("min pixels is:" + str(np.amin(img1_green)))
 print("max pixels is:" + str(np.amax(img1_green)))
@@ -37,3 +38,6 @@ print("standard deviation is:" + str(np.std(img1_green)))
 
 calculated = (img1_green - np.mean(img1_green)) / np.std(img1_green) * 10 + np.mean(img1_green)
 cv2.imwrite("/Users/jimmy/Desktop/cv/Homework/ps0/output/ps0-4-b-1.jpg", calculated)
+
+
+テストのため追加
